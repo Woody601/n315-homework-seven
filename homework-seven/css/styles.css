@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+html, body {
+  font-family: Roboto Slab;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  margin: 50px 10%;
+}
+
+.backButton {
+  height: 50px;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: calc(-webkit-max-content + 30px);
+  width: calc(-moz-max-content + 30px);
+  width: calc(max-content + 30px);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.backButton:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.backButton:active {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+li {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  list-style: none;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  background-color: beige;
+  position: relative;
+}
+
+li:nth-child(odd) {
+  background-color: bisque;
+}
+
+li input {
+  margin-right: 20px;
+}
+
+li.checked {
+  text-decoration: line-through;
+}
+
+.right {
+  position: absolute;
+  right: 15px;
+}
+
+.listButton {
+  height: 50px;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: calc(-webkit-max-content + 30px);
+  width: calc(-moz-max-content + 30px);
+  width: calc(max-content + 30px);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  right: 0px;
+}
+
+.listButton:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.listButton:active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#addItem {
+  margin: 0 0 0 33px;
+  width: calc(100% - 142.38px);
+  height: 50px;
+  border: none;
+  font-size: 16px;
+  font-family: Roboto Slab;
+  background-color: inherit;
+}
+
+#addItem:focus {
+  outline: none;
+}
